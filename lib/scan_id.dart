@@ -86,7 +86,7 @@ class _ScanIDState extends State<ScanID> {
     } else if (Theme.of(context).platform == TargetPlatform.android) {
       license = "sRwCABZjb20uZXhhbXBsZS5ibGlua2lfdHJ5AGxleUpEY21WaGRHVmtUMjRpT2pFM016VTNOekE1TnpBM05USXNJa055WldGMFpXUkdiM0lpT2lKa1lXUXlZbVV4TnkwM00yTTBMVFJpT1RFdFlqQm1aaTFqTUdFd056RXhZekEwWW1ZaWZRPT2slhidStG0BF6+e9R2PQr/xbOyhSzInC53j/2exlG6LAjlZMEJ338Cm0Dywwfaw1iGKbdZhLX7tFNRyAkaRGX0oQdP6hH/SZNX1AdCMp+6M36HW509Ganx38gA71sQvYPD0O1vmJxtw0eS6MeiZNqcFtMjgFy4QQs=";
     } else {
-      license = "";
+      license = "sRwCABVjb20uZXhhbXBsZS5ibGlua2lUcnkBbGV5SkRjbVZoZEdWa1QyNGlPakUzTXpVM056QTVOekEyTXpZc0lrTnlaV0YwWldSR2IzSWlPaUprWVdReVltVXhOeTAzTTJNMExUUmlPVEV0WWpCbVppMWpNR0V3TnpFeFl6QTBZbVlpZlE9PY5nZfkvC7rQXlbZmvNhJ7lrndSCJ5d5F0MiiG3zcoYYinv0TqJLp9BtLohwlbyz34R5yB2MviSyOtG8uGC3DjwB7LCW3HLweDhyEvdDhUI+xHbfiTvKj2xKXM/yilYkTuNIjdrtfbxnhghxOgkHvdr69TvUycMF6w==";
     }
 
     var idRecognizer = BlinkIdMultiSideRecognizer();
